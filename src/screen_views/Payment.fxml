@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="153.0" layoutY="18.0" style="-fx-font-weight: bold;" text="PAYMENT" textFill="#5292e6">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="122.0" text="Payment method">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="174.0" layoutY="177.0" mnemonicParsing="false" selected="true" text="Credit Card">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="677.0" layoutY="189.0" text="Card number:">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="677.0" layoutY="231.0" prefHeight="40.0" prefWidth="572.0" style="-fx-font-size: 18;">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font></TextField>
+      <Label layoutX="677.0" layoutY="282.0" text="Card holder name:">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="677.0" layoutY="324.0" prefHeight="40.0" prefWidth="572.0" style="-fx-font-size: 18;">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font></TextField>
+      <Label layoutX="677.0" layoutY="374.0" text="Expiration date:">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="677.0" layoutY="416.0" prefHeight="40.0" prefWidth="572.0" style="-fx-font-size: 18;">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font></TextField>
+      <Label layoutX="677.0" layoutY="467.0" text="Card security code:">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="677.0" layoutY="509.0" prefHeight="40.0" prefWidth="572.0" style="-fx-font-size: 18;" text="Trần Văn Thắng -20183989">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font></TextField>
+      <Button layoutX="497.0" layoutY="660.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" style="-fx-background-color: red; -fx-font-weight: bold;" text="Confirm payment" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="46.0" fitWidth="142.0" layoutX="4.0" layoutY="29.0">
+         <image>
+            <Image url="@../img/AIMS_logo_white.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
