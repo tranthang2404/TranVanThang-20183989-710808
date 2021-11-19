@@ -8,12 +8,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Text layoutX="396.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THANG_TV" textAlignment="CENTER" wrappingWidth="140.87652587890625">
+      <Text layoutX="594.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THANG_TV" textAlignment="CENTER" wrappingWidth="140.87652587890625">
          <font>
             <Font name="Segoe UI" size="24.0" />
          </font>
       </Text>
-      <ImageView fitHeight="115.0" fitWidth="207.0" layoutX="366.0" layoutY="227.0">
+      <ImageView fitHeight="115.0" fitWidth="207.0" layoutX="571.0" layoutY="244.0">
          <image>
             <Image url="@../img/AIMS_logo_white.png" />
          </image>
